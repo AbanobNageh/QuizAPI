@@ -1,0 +1,28 @@
+[
+  {
+    "quiz_en": {
+      "name": "quiz 1",
+      "description": "this is a quiz",
+      "rating": 5,
+      "difficulty": 5,
+      "questions": [
+        {
+          "question": "who am i?",
+          "answers": "Abanob Nageh Samia Monika",
+          "correct_answer": 1,
+          "image": null
+        }
+      ]
+    },
+    "quiz_ar": {
+      "name": "اختبار 1",
+      "description": "هذا اختبار",
+      "questions": [
+        {
+          "question": "من انا؟",
+          "answers": "ابانوب ناجح ساميه مونيكا"
+        }
+      ]
+    }
+  }
+]
