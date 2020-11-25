@@ -2,13 +2,13 @@ const express = require("express");
 const dotenv = require("dotenv");
 const dotenvParseVariables = require("dotenv-parse-variables");
 
-const databaseUtils = require("./app/common utils/database_utils");
-const routes = require("./app/V1.0.0/routes/index");
-
 // read and parse .env file.
 let env = dotenv.config({});
 if (env.error) throw env.error;
 process.env = dotenvParseVariables(env.parsed);
+
+const databaseUtils = require("./app/common utils/database_utils");
+const routes = require("./app/V1.0.0/routes/index");
 
 const app = express();
 const listeningPort = process.env.APP_PORT || 8000;
