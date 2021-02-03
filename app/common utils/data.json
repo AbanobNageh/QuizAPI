@@ -1,26 +1,132 @@
 [
   {
     "quiz_en": {
-      "name": "quiz 1",
-      "description": "this is a quiz",
+      "name": "History Quiz",
+      "description": "How much do you know about history?",
       "rating": 5,
       "difficulty": 5,
       "questions": [
         {
-          "question": "who am i?",
-          "answers": "Abanob Nageh Samia Monika",
-          "correct_answer": 1,
-          "image": null
+          "question": "During the first world war, which country signed the peace treaty with Germany?",
+          "answers": "England USA Russia Austria",
+          "correct_answer": 3,
+          "image": "public/images/question/peace-treaty.png"
+        },
+        {
+          "question": "Napoleon was exiled to the Saint Helena after the defeat in the war of?",
+          "answers": "Russia Waterloo Peninsular Rivoli",
+          "correct_answer": 2,
+          "image": "public/images/question/Napoleon.png"
+        },
+        {
+          "question": "In which year did America join the second world war?",
+          "answers": "1939 1940 1941 1942",
+          "correct_answer": 3,
+          "image": "public/images/question/world-war-2.png"
+        },
+        {
+          "question": "Who were the Axis power in world war 2?",
+          "answers": "Poland-Japan-Germany Italy-Japan-Britain Germany-Italy-France Germany-Italy-Japan",
+          "correct_answer": 4,
+          "image": "public/images/question/axis-power.png"
+        },
+        {
+          "question": "Which was the last Axis country to surrender during world war 2?",
+          "answers": "Germany Japan Italy France",
+          "correct_answer": 2,
+          "image": "public/images/question/axis-power.png"
         }
       ]
     },
     "quiz_ar": {
-      "name": "اختبار 1",
-      "description": "هذا اختبار",
+      "name": "اختبار تاريخ",
+      "description": "كم تعرف عن التاريخ؟",
       "questions": [
         {
-          "question": "من انا؟",
-          "answers": "ابانوب ناجح ساميه مونيكا"
+          "question": "خلال الحرب العالمية الأولى ، أي دولة وقعت معاهدة السلام مع ألمانيا؟",
+          "answers": "انجلترا امريكا روسيا النمسا"
+        },
+        {
+          "question": "تم نفي نابليون إلى سانت هيلانة بعد الهزيمة في حرب؟",
+          "answers": "روسيا واترلو بننسولر ريفولي"
+        },
+        {
+          "question": "في أي عام انضمت أمريكا إلى الحرب العالمية الثانية؟",
+          "answers": "1939 1940 1941 1942"
+        },
+        {
+          "question": "من كانت قوات المحور في الحرب العالمية الثانية؟",
+          "answers": "بولندا-اليابان-ألمانيا إيطاليا-اليابان-بريطانيا ألمانيا-إيطاليا-فرنسا ألمانيا-إيطاليا-اليابان"
+        },
+        {
+          "question": "ما هي آخر دول المحور التي استسلمت خلال الحرب العالمية الثانية؟",
+          "answers": "ألمانيا اليابان إيطاليا فرنسا"
+        }
+      ]
+    }
+  },
+  {
+    "quiz_en": {
+      "name": "Geography Quiz",
+      "description": "How much do you know about Geography?",
+      "rating": 5,
+      "difficulty": 5,
+      "questions": [
+        {
+          "question": "The Hwang Ho river flows into?",
+          "answers": "Indian-Ocean Yellow-Sea Red-Sea Bay-of-China",
+          "correct_answer": 2,
+          "image": "public/images/question/river.png"
+        },
+        {
+          "question": "Brown waterfall is situated in?",
+          "answers": "Australia New-Zealand Canada Switzerland",
+          "correct_answer": 2,
+          "image": "public/images/question/waterfall.png"
+        },
+        {
+          "question": "Greenland is under the rule of?",
+          "answers": "Turkey Denmark Germany Portugal",
+          "correct_answer": 2,
+          "image": "public/images/question/greenland.png"
+        },
+        {
+          "question": "Which country is known as 'Sugar bowl' of the world?",
+          "answers": "Cuba China Australia India",
+          "correct_answer": 1,
+          "image": "public/images/question/sugar.png"
+        },
+        {
+          "question": "The great Victoria desert is located in?",
+          "answers": "Canada West-Africa Australia North-America",
+          "correct_answer": 3,
+          "image": "public/images/question/desert.png"
+        }
+      ]
+    },
+    "quiz_ar": {
+      "name": "اختبار الجغرافيا",
+      "description": "كم تعرف عن الجغرافيا",
+      "questions": [
+        {
+          "question": "يتدفق نهر هوانج هو إلى؟",
+          "answers": "انجلترا امريكا روسيا النمسا"
+        },
+        {
+          "question": "يقع شلال براون في؟",
+          "answers": "أستراليا نيوزيلندا كندا سويسرا"
+        },
+        {
+          "question": "غرينلاند تحت حكم؟",
+          "answers": "تركيا الدنمارك ألمانيا البرتغال"
+        },
+        {
+          "question": "أي بلد يعرف باسم 'وعاء السكر' في العالم؟",
+          "answers": "كوبا الصين أستراليا الهند"
+        },
+        {
+          "question": "تقع صحراء فيكتوريا العظمى في؟",
+          "answers": "كندا غرب-أفريقيا أستراليا أمريكا-الشمالية"
         }
       ]
     }

@@ -28,9 +28,19 @@ quizRouter.get("/quizzes", async (req, res) => {
       return res
         .status(404)
         .send(
-          "This API currently only supports english (code = en) and arabic (code = ar)"
+          {
+            error_code: 0,
+            error_message: "This API currently only supports english (code = en) and arabic (code = ar)"
+          }
         );
     }
+
+    (
+      await errorUtils.getErrorObject(
+        errorCodes.UNKNOWN_ERROR,
+        req.user_language
+      )
+    )
 
     const quizzes = await quizController.findQuizzes(paginationData, language);
     res.status(200).send(quizzes);
@@ -60,7 +70,10 @@ quizRouter.get("/quiz", async (req, res) => {
       return res
         .status(404)
         .send(
-          "This API currently only supports english (code = en) and arabic (code = ar)"
+          {
+            error_code: 0,
+            error_message: "This API currently only supports english (code = en) and arabic (code = ar)"
+          }
         );
     }
 

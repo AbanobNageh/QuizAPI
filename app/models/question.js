@@ -14,7 +14,7 @@ const questionModel = database.define(
       type: Sequelize.INTEGER,
     },
     image: {
-      type: Sequelize.INTEGER,
+      type: Sequelize.STRING,
     },
     // quiz_id: {
     //   type: Sequelize.INTEGER,

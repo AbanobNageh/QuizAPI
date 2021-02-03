@@ -24,6 +24,7 @@ app.use("/1.0.0/quiz", routes.quizRoutes);
 const server = app.listen(listeningPort, async () => {
   try {
     await databaseUtils.initializeDatabase();
+    console.log("--------------------------------------------");
     console.log("We are live on port " + listeningPort);
   } catch (error) {
     console.log(error);
